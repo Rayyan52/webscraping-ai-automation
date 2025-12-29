@@ -1,6 +1,19 @@
 # NEDUET Result Notifier 🎓
 
-An automated Python-based system that monitors the NEDUET examination results page, extracts student results using AI vision models, and sends personalized email notifications to students. This project combines web scraping, computer vision, and automated email delivery to provide instant result notifications.
+> **Quick Overview**: An automated bot that checks NEDUET's results page, extracts student GPAs from result images using AI, and emails each student their results.
+
+## What Does It Do?
+This Python script monitors the NEDUET examination results page, downloads result notification images when posted, uses Groq's vision AI to extract roll numbers and GPAs, and automatically sends personalized emails to students with their results.
+
+## How It Works
+1. Scrapes the NEDUET website for new Software Engineering results
+2. Downloads official result images
+3. AI (Llama vision model) reads the image and extracts student data
+4. Sends individual emails to each student with their GPA
+
+---
+
+## Full Documentation
 
 ## Features
 - **Automated Web Scraping**: Continuously monitors the NEDUET results page for Software Engineering department announcements

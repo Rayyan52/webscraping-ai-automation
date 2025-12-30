@@ -1,6 +1,6 @@
-# NEDUET Result Notifier 🎓
+# Result Notifier 🎓
 
-> **Quick Overview**: An automated bot that checks NEDUET's results page, extracts student GPAs from result images using AI, and emails each student their results.
+> **Quick Overview**: An automated bot that checks the results page, extracts student GPAs from result images using AI, and emails each student their results.
 
 ## What Does It Do?
 This Python script monitors the NEDUET examination results page, downloads result notification images when posted, uses Groq's vision AI to extract roll numbers and GPAs, and automatically sends personalized emails to students with their results.

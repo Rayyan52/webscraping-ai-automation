@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎓 NEDUET Automation Suite
+
 
 ### AI-Powered Result Notifier & Portal Registration Monitor
 

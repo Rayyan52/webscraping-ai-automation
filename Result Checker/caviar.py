@@ -18,31 +18,32 @@ load_dotenv()
 BASE_URL = "https://www.neduet.edu.pk"
 URL = "https://www.neduet.edu.pk/examination_results"
 
-SENDER_EMAIL = "syed.rayyan52@gmail.com"
-APP_PASSWORD = "nzcz ikvm agiq pxdy"
+SENDER_EMAIL = "-"
+APP_PASSWORD = "-"
 
 # ---------------- ROLL → EMAIL MAP ----------------
 ROLL_EMAIL_MAP = {
-    "SE-23051": "mawwabkhank2006@gmail.com",
-    "SE-23052": "hiddenmystery621@gmail.com",
-    "SE-23053": "m.abyaz681@gmail.com",
-    "SE-23057": "muhammadtalha.mailme@gmail.com",
-    "SE-23062": "th47555@gmail.com",
-    "SE-23054": "nabeedjamshedali800@gmail.com",
-    "SE-23085": "abdulwahabshahid332@gmail.com",
-    "SE-23081": "danialsaud7@gmail.com",
-    "SE-23067": "syed.rayyan0452@gmail.com",
-    "SE-23087": "iqbalanas978@gmail.com", 
-    "SE-23086": "enayatrehman8@gmail.com",
-    "SE-23099": "syedahmerali12789@gmail.com",
-    "SE-23070": "mlaamir2005@gmail.com",
-    "SE-23073": "atayyaba965@gmail.com",
-    "SE-23083": "saadalikhan042@gmail.com",
-    "SE-23084": "hbnasir23@gmail.com",
-    "SE-23092": "maazalimurtaza@gmail.com",
-    "SE-23097": "murtazah1218@gmail.com",
-    "SE-23074": "raafiafatima5@gmail.com"
+    "SE-23051": "-",
+    "SE-23052": "-",
+    "SE-23053": "-",
+    "SE-23057": "-",
+    "SE-23062": "-",
+    "SE-23054": "-",
+    "SE-23085": "-",
+    "SE-23081": "-",
+    "SE-23067": "-",
+    "SE-23087": "-", 
+    "SE-23086": "-",
+    "SE-23099": "-",
+    "SE-23070": "-",
+    "SE-23073": "-",
+    "SE-23083": "-",
+    "SE-23084": "-",
+    "SE-23092": "-",
+    "SE-23097": "-",
+    "SE-23074": "-"
 }
+
 # ---------------- GROQ + INSTRUCTOR ----------------
 client = Groq(api_key=os.getenv("GROQ_API"))
 client = instructor.from_groq(client)
